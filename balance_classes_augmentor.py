@@ -3,9 +3,6 @@
 Balance class folders by copying originals into data/balanced/<mode>/by_class/<class>/
 and generating extra images with Augmentor until each class reaches a target count.
 
-Reads from the same layout as training (raw PAD/HAM by_class trees). Does not modify
-original data.
-
 Example:
   python scripts/balance_classes_augmentor.py --mode ham --overwrite
   python scripts/balance_classes_augmentor.py --mode combined --target max
