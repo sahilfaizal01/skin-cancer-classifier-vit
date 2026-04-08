@@ -62,7 +62,7 @@ HAM_BY_CLASS = DATA / "ham" / "by_class"
 BALANCED_ROOT = DATA / "balanced"
 RUNS_ROOT = REPO_ROOT / "runs"
 
-# PAD / HAM canonical folder names (must match on-disk by_class subdirs)
+# PAD / HAM canonical folder names 
 PAD_CLASSES = ["akiec", "bcc", "mel", "nv", "scc", "sek"]
 HAM_CLASSES = ["akiec", "bcc", "bkl", "df", "mel", "nv", "vasc"]
 COMBINED_CLASSES = sorted(set(PAD_CLASSES) | set(HAM_CLASSES))
